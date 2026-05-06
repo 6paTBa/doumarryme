@@ -1,7 +1,7 @@
 import { useCallback } from 'react'
 import { petals } from '../constants/content'
 
-const PETAL_COUNT    = 100
+const PETAL_COUNT    = 150
 const PETAL_INTERVAL = 180  // ms between spawns
 const PETAL_LIFETIME = 7000 // ms until removal
 
@@ -34,7 +34,7 @@ export function usePetals(): UsePetalsReturn {
     for (let i = 0; i < PETAL_COUNT; i++) {
       setTimeout(() => {
         const el = document.createElement('div')
-        const duration = 3.5 + Math.random() * 3
+        const duration = 5.5 + Math.random() * 3
 
         Object.assign(el.style, {
           position:      'absolute',

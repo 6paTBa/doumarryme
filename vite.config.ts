@@ -3,5 +3,6 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/doumarryme/',
   // server:{allowedHosts:['mediterranean-jacket-reductions-inn.trycloudflare.com']}
 })

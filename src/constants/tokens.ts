@@ -28,7 +28,7 @@ export const shadows = {
 
 export const transitions = {
   screen: '0.75s cubic-bezier(0.4,0,0.2,1)',
-  fast:   '0.2s ease',
+  fast:   '0.5s ease',
   bg:     '0.9s ease',
 } as const
 

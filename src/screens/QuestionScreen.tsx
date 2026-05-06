@@ -35,7 +35,7 @@ export default function QuestionScreen({ onYes, containerRef }: Props) {
           marginTop: 14,
         }}
       >
-        (Я очень надеюсь на правильный)
+        Я очень надеюсь на правильный
       </p>
 
       <div
@@ -69,7 +69,7 @@ export default function QuestionScreen({ onYes, containerRef }: Props) {
             transition: "0.2s ease",
           }}
         >
-          Да 💗
+          Да ❤️
         </button>
 
         <button

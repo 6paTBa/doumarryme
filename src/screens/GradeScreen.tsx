@@ -35,7 +35,7 @@ export default function GradeScreen({ onNext, onPrev }: Props) {
 
   return (
     <>
-      <Eyebrow>насколько я тебе нравлясь</Eyebrow>
+      <Eyebrow>насколько я тебе нравлюсь</Eyebrow>
 
       <div
         style={{
